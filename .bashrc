@@ -13,12 +13,6 @@ if [[ $- != *i* ]]; then
   return
 fi
 
-# Put your fun stuff here.
-
-alias doasedit="doas nvim"
-alias grab="doas emerge --ask"
-alias yeet="doas emerge --deselect"
-
 # uv
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/bin:$PATH"
